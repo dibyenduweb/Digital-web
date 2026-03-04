@@ -27,7 +27,7 @@ const teamMembers = [
   },
   { 
     id: 4, 
-    name: 'Jutiana Todoo', 
+    name: 'Mr. Pulak Pramanik', 
     designation: 'Chief Security Officer (CSO)', 
     image: 'https://media.craiyon.com/2025-10-04/uAN5Q3ZRSl-WjhzCYhjp8g.webp' 
   }
