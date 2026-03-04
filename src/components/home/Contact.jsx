@@ -20,7 +20,7 @@ const Contact = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
         {[
-          { icon: FaMapMarkerAlt, title: 'Address', info: 'Kolkta' },
+          { icon: FaMapMarkerAlt, title: 'Address', info: 'Kolkata' },
           { icon: FaPhone, title: 'Call Us', info: '+91 93396 43434' },
           { icon: FaEnvelope, title: 'Email Us', info: 'digiprimelab@gmail.com' },
         ].map((item, index) => (

@@ -19,7 +19,7 @@ const About = () => {
             className="rounded-lg shadow-xl w-full"
           />
           <div className="absolute -bottom-6 -right-6 bg-secondary text-white p-6 rounded-lg">
-            <span className="text-4xl font-bold">25+</span>
+            <span className="text-4xl font-bold">5+</span>
             <p className="text-sm">Years Experience</p>
           </div>
         </motion.div>

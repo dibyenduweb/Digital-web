@@ -163,7 +163,7 @@ const Footer = () => {
         >
           <p className="text-gray-300 mb-4 md:mb-0">
             <FaCopyright className="inline text-secondary mr-1" />
-            digiprimelab.com, All rights reserved. 2026
+            digiprimelab.com, All rights reserved.2021 - 2026
           </p>
 
           <p className="text-gray-300">

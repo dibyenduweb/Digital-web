@@ -29,7 +29,7 @@ const About = () => {
             className="rounded-lg shadow-xl w-full"
           />
           <div className="absolute -bottom-6 -right-6 bg-secondary text-white p-6 rounded-lg">
-            <span className="text-4xl font-bold">25+</span>
+            <span className="text-4xl font-bold">5+</span>
             <p className="text-sm">Years Experience</p>
           </div>
         </motion.div>
@@ -56,7 +56,7 @@ const About = () => {
               <p className="text-gray-600">Team Members</p>
             </div>
             <div className="bg-gray-50 p-4 rounded-lg">
-              <h3 className="text-2xl font-bold text-primary">500+</h3>
+              <h3 className="text-2xl font-bold text-primary">200+</h3>
               <p className="text-gray-600">Projects Done</p>
             </div>
             <div className="bg-gray-50 p-4 rounded-lg">

@@ -128,15 +128,15 @@ const TeamPage = () => {
           className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 bg-primary rounded-xl p-8 text-white"
         >
           <div className="text-center">
-            <div className="text-4xl font-bold text-secondary mb-2">50+</div>
+            <div className="text-4xl font-bold text-secondary mb-2">25+</div>
             <p>Team Members</p>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-secondary mb-2">10+</div>
+            <div className="text-4xl font-bold text-secondary mb-2">5+</div>
             <p>Years Experience</p>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-secondary mb-2">500+</div>
+            <div className="text-4xl font-bold text-secondary mb-2">228+</div>
             <p>Projects Done</p>
           </div>
           <div className="text-center">
