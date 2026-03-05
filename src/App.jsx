@@ -7,6 +7,10 @@ import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import Topbar from './components/layout/Topbar';
 import BackToTop from './components/common/BackToTop';
+import FAQ from './pages/FAQ ';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsConditions from './pages/TermsConditions';
+import VisionMission from './pages/VisionMission';
 
 // Lazy load pages for better performance
 const Home = lazy(() => import('./pages/Home'));
@@ -71,6 +75,10 @@ function App() {
                 <Route path="/testimonial" element={<Testimonial />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="*" element={<NotFound />} />
+                <Route path="/faqs" element={<FAQ/>} />
+                <Route path="/privacy" element={<PrivacyPolicy/>} />
+                <Route path="/terms" element={<TermsConditions/>} />
+                <Route path="/vision-mission" element={<VisionMission />} />
               </Routes>
             </Suspense>
           </main>
@@ -84,3 +92,4 @@ function App() {
 }
 
 export default App;
+

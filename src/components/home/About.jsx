@@ -32,11 +32,10 @@ const About = () => {
         >
           <h5 className="text-secondary font-semibold mb-2">About Us</h5>
           <h2 className="text-4xl font-bold text-primary mb-4">
-            About Digi PrimeLab Agency And It's Innovative IT Solutions
+            About Digi PrimeLab And It's Innovative IT Solutions & Digital Marketing
           </h2>
-          <p className="text-gray-600 mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur quis purus ut interdum. 
-            Pellentesque aliquam dolor eget urna ultricies tincidunt.
+        <p className="text-gray-600 mb-6">
+        DigiPrime Lab empowers businesses with digital marketing, SEO services, website development, IT solutions, and accounting services. We drive SEO services, boost traffic via digital marketing, craft stunning website development, deliver IT solutions, and ensure precise accounting services. Startups thrive with our affordable SEO services, expert digital marketing, reliable IT solutions, seamless website development, and comprehensive accounting services for growth.
           </p>
           <Link
             to="/about"

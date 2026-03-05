@@ -12,7 +12,7 @@ const About = () => {
       >
         <h5 className="text-secondary font-semibold mb-2">About Us</h5>
         <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-          About Digi PrimeLab Agency And It's Innovative IT Solutions
+          About Digi PrimeLab And It's Innovative IT Solutions & Digital Marketing
         </h1>
       </motion.div>
 
@@ -40,14 +40,7 @@ const About = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
         >
           <p className="text-gray-600 mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur quis purus ut interdum. 
-            Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, 
-            ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec 
-            elementum viverra. Suspendisse viverra hendrerit diam in tempus.
-          </p>
-          <p className="text-gray-600 mb-8">
-            Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, 
-            ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros.
+          DigiPrime Lab empowers businesses with digital marketing, SEO services, website development, IT solutions, and accounting services. We drive SEO services, boost traffic via digital marketing, craft stunning website development, deliver IT solutions, and ensure precise accounting services. Startups thrive with our affordable SEO services, expert digital marketing, reliable IT solutions, seamless website development, and comprehensive accounting services for growth.
           </p>
           
           <div className="grid grid-cols-2 gap-4 mb-8">
