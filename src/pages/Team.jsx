@@ -4,6 +4,8 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/f
 import teams4 from "../assets/images/4.png";
 import teams3 from "../assets/images/3.png";
 import teams2 from "../assets/images/2.png";
+import teams5 from "../assets/images/5.jpg";
+
 
 const team = [
   { 
@@ -28,7 +30,7 @@ const team = [
     id: 4, 
     name: 'Mr. Pulak Pramanik', 
     designation: 'Chief Security Officer (CSO)', 
-    image: 'https://media.craiyon.com/2025-10-04/uAN5Q3ZRSl-WjhzCYhjp8g.webp' 
+    image: teams5
   },
 //   { 
 //     id: 5, 

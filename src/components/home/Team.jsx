@@ -1,11 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 import team4 from "../../assets/images/4.png";
 import team3 from "../../assets/images/3.png";
 import team2 from "../../assets/images/2.png";
-
+import teams5 from "../../assets/images/5.jpg";
 const teamMembers = [
   { 
     id: 1, 
@@ -29,7 +29,7 @@ const teamMembers = [
     id: 4, 
     name: 'Mr. Pulak Pramanik', 
     designation: 'Chief Security Officer (CSO)', 
-    image: 'https://media.craiyon.com/2025-10-04/uAN5Q3ZRSl-WjhzCYhjp8g.webp' 
+    image: teams5
   }
 ];
 
@@ -76,12 +76,6 @@ const Team = () => {
               <div className="flex justify-center space-x-2">
                 <a href="#" className="w-7 h-7 bg-primary rounded-full flex items-center justify-center text-white hover:bg-secondary transition-colors">
                   <FaFacebookF className="text-xs" />
-                </a>
-                <a href="#" className="w-7 h-7 bg-primary rounded-full flex items-center justify-center text-white hover:bg-secondary transition-colors">
-                  <FaTwitter className="text-xs" />
-                </a>
-                <a href="#" className="w-7 h-7 bg-primary rounded-full flex items-center justify-center text-white hover:bg-secondary transition-colors">
-                  <FaInstagram className="text-xs" />
                 </a>
                 <a href="#" className="w-7 h-7 bg-primary rounded-full flex items-center justify-center text-white hover:bg-secondary transition-colors">
                   <FaLinkedinIn className="text-xs" />
