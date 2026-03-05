@@ -23,7 +23,7 @@ const team = [
   { 
     id: 3, 
     name: 'Mr. Dibyendu Pramanik', 
-    designation: 'Chief Technology Officer', 
+    designation: 'Co-Founder & Chief Technology Officer', 
     image: teams2 
   },
   { 
