@@ -8,6 +8,8 @@ import {
   FaInstagram, 
   FaLinkedinIn 
 } from 'react-icons/fa';
+import { FaYoutube } from "react-icons/fa6";
+
 
 const Topbar = () => {
   return (
@@ -51,9 +53,12 @@ const Topbar = () => {
           {/* Social Links */}
           <div className="flex items-center space-x-3">
             {[
-              { Icon: FaFacebookF, link: "https://www.facebook.com/digiprimelab/" },
-              { Icon: FaInstagram, link: "https://www.instagram.com/digiprime_lab" },
-              { Icon: FaLinkedinIn, link: "https://www.linkedin.com/company/digiprimelab" }
+              { Icon: FaFacebookF, link:  "https://www.facebook.com/digiprimelab/" },
+              { Icon: FaInstagram, link:  "https://www.instagram.com/digiprime_lab" },
+              { Icon: FaLinkedinIn, link: "https://www.linkedin.com/company/digiprimelab" },
+              { Icon: FaYoutube, link:    "https://www.youtube.com/@DigiprimeLab" }
+
+
             ].map(({ Icon, link }, index) => (
               <motion.a
                 key={index}

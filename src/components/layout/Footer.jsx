@@ -11,6 +11,7 @@ import {
   FaAngleRight, 
   FaCopyright 
 } from 'react-icons/fa';
+import { FaYoutube } from "react-icons/fa6";
 
 import logo from "../../assets/images/logo.png";
 
@@ -54,7 +55,8 @@ const Footer = () => {
               {[
                 { Icon: FaFacebookF, link: "https://www.facebook.com/digiprimelab/" },
                 { Icon: FaInstagram, link: "https://www.instagram.com/digiprime_lab" },
-                { Icon: FaLinkedinIn, link: "https://www.linkedin.com/company/digiprimelab" }
+                { Icon: FaLinkedinIn, link: "https://www.linkedin.com/company/digiprimelab" },
+                { Icon: FaYoutube, link: "https://www.youtube.com/@DigiprimeLab" }
               ].map(({ Icon, link }, index) => (
                 <motion.a
                   key={index}
