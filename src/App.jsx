@@ -11,6 +11,7 @@ import FAQ from './pages/FAQ ';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsConditions from './pages/TermsConditions';
 import VisionMission from './pages/VisionMission';
+import Tool from './pages/Tool';
 
 // Lazy load pages for better performance
 const Home = lazy(() => import('./pages/Home'));
@@ -79,6 +80,7 @@ function App() {
                 <Route path="/privacy" element={<PrivacyPolicy/>} />
                 <Route path="/terms" element={<TermsConditions/>} />
                 <Route path="/vision-mission" element={<VisionMission />} />
+                <Route path="/tools" element={<Tool />} />
               </Routes>
             </Suspense>
           </main>

@@ -10,7 +10,6 @@ import {
 } from 'react-icons/fa';
 import { FaYoutube } from "react-icons/fa6";
 
-
 const Topbar = () => {
   return (
     <motion.div 
@@ -50,28 +49,39 @@ const Topbar = () => {
             🚀 We Help You Grow Your Business
           </motion.div>
 
-          {/* Social Links */}
-          <div className="flex items-center space-x-3">
-            {[
-              { Icon: FaFacebookF, link:  "https://www.facebook.com/digiprimelab/" },
-              { Icon: FaInstagram, link:  "https://www.instagram.com/digiprime_lab" },
-              { Icon: FaLinkedinIn, link: "https://www.linkedin.com/company/digiprimelab" },
-              { Icon: FaYoutube, link:    "https://www.youtube.com/@DigiprimeLab" }
+          {/* Right Section */}
+          <div className="flex items-center space-x-4">
 
+            {/* Tools Menu */}
+            <a 
+              href="/tools"
+              className="text-white text-sm font-medium bg-blue-950 px-2 py-1 rounded-full hover:text-secondary transition"
+            >
+              Tools
+            </a>
 
-            ].map(({ Icon, link }, index) => (
-              <motion.a
-                key={index}
-                href={link}
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.15 }}
-                whileTap={{ scale: 0.9 }}
-                className="w-9 h-9 bg-white rounded-full flex items-center justify-center hover:bg-secondary transition-all duration-300 shadow-md"
-              >
-                <Icon className="text-black text-sm" />
-              </motion.a>
-            ))}
+            {/* Social Links */}
+            <div className="flex items-center space-x-3">
+              {[
+                { Icon: FaFacebookF, link:  "https://www.facebook.com/digiprimelab/" },
+                { Icon: FaInstagram, link:  "https://www.instagram.com/digiprime_lab" },
+                { Icon: FaLinkedinIn, link: "https://www.linkedin.com/company/digiprimelab" },
+                { Icon: FaYoutube, link:    "https://www.youtube.com/@DigiprimeLab" }
+              ].map(({ Icon, link }, index) => (
+                <motion.a
+                  key={index}
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.15 }}
+                  whileTap={{ scale: 0.9 }}
+                  className="w-9 h-9 bg-white rounded-full flex items-center justify-center hover:bg-secondary transition-all duration-300 shadow-md"
+                >
+                  <Icon className="text-black text-sm" />
+                </motion.a>
+              ))}
+            </div>
+
           </div>
 
         </div>
