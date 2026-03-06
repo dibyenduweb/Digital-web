@@ -19,7 +19,8 @@
     "react-countup": "^6.5.0",
     "react-dom": "^19.2.4",
     "react-icons": "^5.0.0",
-    "react-router-dom": "^6.22.0"
+    "react-router-dom": "^6.22.0",
+    "vite-plugin-sitemap": "^0.8.2"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.0-alpha.x",
