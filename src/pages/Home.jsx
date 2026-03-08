@@ -15,10 +15,10 @@ const Home = () => {
       <HeroCarousel />
       <Facts />
       <About />
-      <Services />
+      <Services initialServicesToShow={3} showViewAllButton={true} />
       <Projects />
       <Blog />
-      <Team />
+      {/* <Team /> */}
       <Testimonial />
       <Contact />
     </main>

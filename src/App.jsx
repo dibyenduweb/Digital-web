@@ -12,6 +12,9 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsConditions from './pages/TermsConditions';
 import VisionMission from './pages/VisionMission';
 import Tool from './pages/Tool';
+import DigitalMarketing from './pages/DigitalMarketing';
+import Accounting from './pages/Accounting';
+import WebDevelopmentApp from './pages/WebDevelopmentApp';
 
 // Lazy load pages for better performance
 const Home = lazy(() => import('./pages/Home'));
@@ -81,6 +84,9 @@ function App() {
                 <Route path="/terms" element={<TermsConditions/>} />
                 <Route path="/vision-mission" element={<VisionMission />} />
                 <Route path="/tools" element={<Tool />} />
+                <Route path="/services/digital-marketing" element={<DigitalMarketing/>} />
+                <Route path="/services/accounting-services" element={<Accounting/>} />
+                <Route path="/services/web-development-app" element={<WebDevelopmentApp/>} />
               </Routes>
             </Suspense>
           </main>
