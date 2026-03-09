@@ -15,6 +15,7 @@ import Tool from './pages/Tool';
 import DigitalMarketing from './pages/DigitalMarketing';
 import Accounting from './pages/Accounting';
 import WebDevelopmentApp from './pages/WebDevelopmentApp';
+import ScrollToTop from './components/common/ScrollToTop';
 
 // Lazy load pages for better performance
 const Home = lazy(() => import('./pages/Home'));
@@ -54,11 +55,18 @@ function App() {
     });
   }, []);
 
+  // Scroll to top on route change
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }, []);
+
   return (
-    <Router future={{
-      v7_startTransition: true,
-      v7_relativeSplatPath: true
-    }}>
+    <Router>
+            <ScrollToTop/>
+
       {loading ? (
         <Preloader />
       ) : (
@@ -100,4 +108,3 @@ function App() {
 }
 
 export default App;
-

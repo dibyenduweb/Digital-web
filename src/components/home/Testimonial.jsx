@@ -5,17 +5,31 @@ import { FaStar } from 'react-icons/fa';
 const testimonials = [
   {
     id: 1,
-    name: 'Client Name',
-    profession: 'Profession',
-    image: 'https://images.unsplash.com/photo-1494790108777-466fd103c8ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&q=80',
-    text: 'Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna.',
+    name: 'Rahul Sharma',
+    profession: 'Restaurant Owner',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=687&q=80',
+    text: 'Digiprimelab team amar restaurant er jonno website ebong Google marketing koreche. Within 2 months amar online orders onek bere geche. Highly recommended digital marketing service!',
   },
   {
     id: 2,
-    name: 'Client Name',
-    profession: 'Profession',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&q=80',
-    text: 'Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna.',
+    name: 'Priya Sen',
+    profession: 'Boutique Owner',
+    image: 'https://images.unsplash.com/photo-1494790108777-466fd103c8ab?auto=format&fit=crop&w=687&q=80',
+    text: 'Ami amar boutique business er jonno Facebook & Instagram ads run korchi Digiprimelab er sathe. Result khub bhalo, amar brand reach onek barche.',
+  },
+  {
+    id: 3,
+    name: 'Amit Patel',
+    profession: 'Chartered Accountant',
+    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=687&q=80',
+    text: 'They built a clean and professional website for my accounting firm. Client inquiries barche and website ta khub fast and SEO friendly.',
+  },
+  {
+    id: 4,
+    name: 'Sourav Das',
+    profession: 'Startup Founder',
+    image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=687&q=80',
+    text: 'Website design, branding and digital strategy sob ek sathe peye gechi Digiprimelab theke. Team ta khub supportive and professional.',
   },
 ];
 
