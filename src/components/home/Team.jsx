@@ -1,11 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 import team4 from "../../assets/images/4.png";
 import team3 from "../../assets/images/3.png";
 import team2 from "../../assets/images/2.png";
 import teams5 from "../../assets/images/5.jpg";
+
 const teamMembers = [
   { 
     id: 1, 
@@ -33,10 +34,13 @@ const teamMembers = [
   }
 ];
 
-
 const Team = () => {
+  const navigate = useNavigate(); // 👈 add this
+
   return (
     <div className="container mx-auto px-4 py-16">
+      
+      {/* Heading */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -50,6 +54,7 @@ const Team = () => {
         </h2>
       </motion.div>
 
+      {/* Team Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {teamMembers.map((member, index) => (
           <motion.div
@@ -85,6 +90,17 @@ const Team = () => {
           </motion.div>
         ))}
       </div>
+
+      {/* ✅ View More Button */}
+      <div className="text-center mt-10">
+        <button
+          onClick={() => navigate('/team')} // 👈 redirect
+          className="bg-primary text-white px-6 py-3 rounded-full font-semibold hover:bg-secondary transition duration-300 shadow-md"
+        >
+          View More Members
+        </button>
+      </div>
+
     </div>
   );
 };
