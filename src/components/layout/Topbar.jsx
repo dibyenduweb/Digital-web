@@ -54,6 +54,12 @@ const Topbar = () => {
 
             {/* Tools Menu */}
             <a 
+              href="/hiring"
+              className="text-white text-sm font-medium bg-red-900 px-2 py-1 rounded-full hover:text-secondary transition"
+            >
+              We are Hiring Join Our Team 🚀
+            </a>
+            <a 
               href="/tools"
               className="text-white text-sm font-medium bg-blue-950 px-2 py-1 rounded-full hover:text-secondary transition"
             >

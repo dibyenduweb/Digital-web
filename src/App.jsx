@@ -16,6 +16,7 @@ import DigitalMarketing from './pages/DigitalMarketing';
 import Accounting from './pages/Accounting';
 import WebDevelopmentApp from './pages/WebDevelopmentApp';
 import ScrollToTop from './components/common/ScrollToTop';
+import HiringPage from './pages/HiringPage';
 
 // Lazy load pages for better performance
 const Home = lazy(() => import('./pages/Home'));
@@ -95,6 +96,7 @@ function App() {
                 <Route path="/services/digital-marketing" element={<DigitalMarketing/>} />
                 <Route path="/services/accounting-services" element={<Accounting/>} />
                 <Route path="/services/web-development-app" element={<WebDevelopmentApp/>} />
+                <Route path="/hiring" element={<HiringPage/>} />
               </Routes>
             </Suspense>
           </main>

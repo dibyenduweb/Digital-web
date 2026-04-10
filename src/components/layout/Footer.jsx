@@ -88,7 +88,7 @@ const Footer = () => {
                 { name: "Vision & Mission", path: "/vision-mission" },
                 { name: "Our Services", path: "/services" },
                 { name: "Our Projects", path: "/projects" },
-                { name: "Latest Blog", path: "/blog" }
+                { name: "We are Hiring", path: "/hiring" }
               ].map((item, index) => (
                 <li key={index}>
                   <Link 
