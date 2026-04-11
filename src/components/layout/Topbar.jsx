@@ -30,7 +30,7 @@ const Topbar = () => {
 
             <div className="flex items-center text-gray-300">
               <FaEnvelope className="text-secondary mr-2" />
-              <span>digiprimelab@gmail.com</span>
+              <span>info@digiprimelab.com</span>
             </div>
 
             <div className="flex items-center text-gray-300">
@@ -53,12 +53,7 @@ const Topbar = () => {
           <div className="flex items-center space-x-4">
 
             {/* Tools Menu */}
-            <a 
-              href="/hiring"
-              className="text-white text-sm font-medium bg-red-900 px-2 py-1 rounded-full hover:text-secondary transition"
-            >
-              We are Hiring Join Our Team 🚀
-            </a>
+          
             <a 
               href="/tools"
               className="text-white text-sm font-medium bg-blue-950 px-2 py-1 rounded-full hover:text-secondary transition"

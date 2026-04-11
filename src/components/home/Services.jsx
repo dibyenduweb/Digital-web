@@ -20,7 +20,7 @@ const allServices = [
   { 
     id: 2,
     image: 'https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    title: 'Web Development & App', 
+    title: 'App & Web Development', 
     description: 'Create stunning, responsive websites and powerful mobile applications tailored to your business needs. Services include: ',
     link: '/services/web-development-app',
     category: 'Development',
