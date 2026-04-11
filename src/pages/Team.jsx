@@ -55,7 +55,7 @@ const employees = [
   {
     id: 3,
     name: 'Rahima Sheikh',
-    role: 'Digital Marketing Expert',
+    role: 'Graphic Designer',
     image: 'https://img.freepik.com/premium-vector/vector-muslim-woman-avatar-female-vector-arab-people-icon-saudi-character-minimalistic-simple-flat_615232-2336.jpg',
     linkedin: '#',
     desc: 'Performance marketer specializing in conversion optimization & analytics.'
@@ -79,7 +79,7 @@ const employees = [
   {
     id: 6,
     name: 'Riya Sen',
-    role: 'UI/UX Designer (Figma)',
+    role: 'UI/UX Designer (Figma,Sketch,Framer,Adobe XD,Penpot,Lunacy',
     image: 'https://img.freepik.com/free-vector/smiling-woman-with-glasses_1308-177859.jpg?semt=ais_hybrid&w=740&q=80',
     linkedin: '#',
     desc: 'Creative designer crafting user-friendly UI/UX using Figma.'
