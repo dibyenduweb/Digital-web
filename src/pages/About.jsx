@@ -21,7 +21,7 @@ const About = () => {
     name: 'Digi PrimeLab',
     founded: 2019,
     email: 'info@digiprimelab.com',
-    phone: '+91 1234567890',
+    phone: '+91 93396 43434',
     address: 'Kolkata, West Bengal, India',
     socialLinks: {
       facebook: 'https://facebook.com/digiprimelab',

@@ -151,7 +151,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 className="inline-block bg-blue-600 text-white px-5 py-2 rounded-md hover:bg-blue-700 transition"
               >
-                View Website 🌐
+                See Demo 🌐
               </a>
             </div>
 
