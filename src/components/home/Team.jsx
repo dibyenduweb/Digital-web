@@ -24,7 +24,7 @@ const teamMembers = [
     id: 3, 
     name: 'Mr. Dibyendu Pramanik', 
     designation: 'Chief Technical Officer',
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQFwkOl1CMF3CA/profile-displayphoto-scale_400_400/B4DZuyi6AWJcAg-/0/1768227058091?e=1777507200&v=beta&t=V5r14WcHbv5Sob5Pz1FvmTekfXOOqaQzfr-UofM8kv8" 
+    image: "https://i.ibb.co/8LmZDpYD/1.png" 
   },
   { 
     id: 4, 
