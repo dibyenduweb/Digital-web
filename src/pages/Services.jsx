@@ -78,7 +78,7 @@ const allServices = [
     image: 'https://images.unsplash.com/photo-1626544827763-d516dce335e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     title: 'AI Content & Video Editor', 
     description: 'Harness the power of artificial intelligence for your content creation. We offer: ',
-    link: '/services/ai-content-video-editor',
+    link: '/services/ai-service',
     category: 'AI',
     subLinks: [
       { name: 'AI Content Writing', url: '/services/ai/content-writing' },

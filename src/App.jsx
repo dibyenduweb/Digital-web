@@ -15,6 +15,7 @@ import Tool from './pages/Tool';
 import DigitalMarketing from './pages/DigitalMarketing';
 import Accounting from './pages/Accounting';
 import WebDevelopmentApp from './pages/WebDevelopmentApp';
+import AiService from './pages/AiService';
 import ScrollToTop from './components/common/ScrollToTop';
 import HiringPage from './pages/HiringPage';
 
@@ -96,6 +97,7 @@ function App() {
                 <Route path="/services/digital-marketing" element={<DigitalMarketing/>} />
                 <Route path="/services/accounting-services" element={<Accounting/>} />
                 <Route path="/services/web-development-app" element={<WebDevelopmentApp/>} />
+                <Route path="/services/ai-service" element={<AiService/>} />
                 <Route path="/hiring" element={<HiringPage/>} />
               </Routes>
             </Suspense>
